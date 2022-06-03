@@ -10,6 +10,9 @@ function NavBar() {
       <NavLink className="navLinks" exact to = '/graveyard'>
       💀Hero Graveyard💀
       </NavLink>
+      <NavLink className="navLinks" exact to = '/custom'>
+      Custom Hero
+      </NavLink>
     </div>
   )
 }

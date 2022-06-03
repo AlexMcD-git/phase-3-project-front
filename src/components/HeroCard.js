@@ -7,8 +7,6 @@ function HeroCard({hero, setActiveHero}) {
         <h2>{hero.name}</h2>
         <p>Strength: {hero.strength}, Intelligence: {hero.intelligence}</p>
         <p>Items owned: {hero.items.length}</p>
-
-
     </div>
   )
 }
